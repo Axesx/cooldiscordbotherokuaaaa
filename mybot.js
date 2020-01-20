@@ -7,7 +7,7 @@ const ytdl = require("ytdl-core");
 const fs = require("fs");
 const superagent = require("superagent");
 const search = require("yt-search");
-const token = 'NjY4MjA3MTg1MzA1Nzk2NjQx.XiXvcw.8mCP_y9zkVWWpQqmB6AoT5yKIQU';
+const token = process.env.arcadia
 
 var servers ={};
 
